@@ -5,7 +5,8 @@
 search {
   display: flex;
   width: 100%;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
+  direction: rtl;
   border: 1px solid var(--search-border-color);
   background: var(--main-bg);
   padding: 0 0.5rem;
