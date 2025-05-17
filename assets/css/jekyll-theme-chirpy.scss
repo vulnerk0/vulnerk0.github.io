@@ -7,10 +7,6 @@
 {%- endif -%}
 ';
 
-/* append your custom style below */
-/* append your custom style below */
-@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700&display=swap');
-
 body {
   font-family: "Amiri", serif;
   font-weight: 400;
@@ -24,5 +20,16 @@ body {
   margin-right: auto;
 }
 .highlight{
+  direction: ltr;
+}
+
+.jetbrains-mono-regular {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.note_content{
   direction: ltr;
 }

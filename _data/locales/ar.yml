@@ -12,6 +12,7 @@ tabs:
   # format: <filename_without_extension>: <value>
   home: الرئيسية
   categories: الفئات
+  notes: المذكرات
   tags: الوسوم
   archives: الأرشيف
   about: حول

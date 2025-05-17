@@ -1,5 +1,5 @@
 ---
-title: حل غرفة newyorkflankees
+title: حل تحدي newyorkflankees
 date: 2024-08-08
 description: تصعيد الصلاحيات مرتين!
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1719465307426
