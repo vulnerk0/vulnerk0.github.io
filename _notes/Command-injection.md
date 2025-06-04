@@ -1,5 +1,6 @@
 ---
-title: command injection
+title: Command injection
+description: My notes about command injection
 ---
 # Overview
 Also known as shell injection, your goal is to pass system commands to the underlying system. if you are in a black box scenario, any parameter might be vulnerable because the application might issue system commands with the HTTP parameters as arguments to the command.
