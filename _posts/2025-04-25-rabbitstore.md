@@ -1,9 +1,8 @@
 ---
 title: حل تحدي rabbitstore
 date: 2025-04-30
-categories: 'CTFs'
 tags: ["SSTI","SSRF","THM"]
-description: بسطة تبيع أرانب
+description: SSRF / Token Manipulation / SSTI / Cipher
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1727807358043
 ---
 

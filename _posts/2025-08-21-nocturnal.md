@@ -1,8 +1,8 @@
 ---
 title: حل تحدي nocturnal
 date: 2025-08-22
-categories: 'CTFs'
-tags: ["HTTP_verb_tampering","command_injection","HTB"]
+tags: ["command_injection","HTB"]
+description: IDOR / Command Injection / PHP Code Injection
 image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/f6a56cec6e9826b4ed124fb4155abc66.png
 ---
 

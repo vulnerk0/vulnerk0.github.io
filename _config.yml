@@ -175,6 +175,12 @@ collections:
   notes:
     output: true
     permalink: /notes/:title/
+  tabs:
+    output: true
+    sort_by: order
+  scripts:
+    output: true
+    permalink: /scripts/:title/
 
 defaults:
   - scope:
@@ -182,7 +188,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: true # Enable comments in posts.
+      comments: false # Enable comments in posts.
       toc: true # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
@@ -193,11 +199,22 @@ defaults:
       type: notes
     values:
       layout: note
-      comments: true # Enable comments in posts.
+      comments: false # Enable comments in posts.
       toc: true # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /notes/:title/
+
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: scripts
+    values:
+      layout: script
+      comments: false # Enable comments in posts.
+      toc: true # Display TOC column in posts.
+      # DO NOT modify the following parameter unless you are confident enough
+      # to update the code of all other post links in this project.
+      permalink: /scripts/:title/
 
   - scope:
       path: _drafts
@@ -234,10 +251,8 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [tags]
   layouts:
-    category: category
     tag: tag
   permalinks:
     tag: /tags/:name/
-    category: /categories/:name/

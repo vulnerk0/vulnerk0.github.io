@@ -9,7 +9,6 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
 #sidebar {
   @include mx.pl-pr(0);
-
   position: fixed;
   top: 0;
   left: 0;

@@ -1,9 +1,8 @@
 ---
 title: حل تحدي The London Bridge
 date: 2025-04-9
-categories: 'CTFs'
 tags: ["SSRF","THM"]
-description: سقط جسر لندن... أحسن
+description: SSTI / Secret Key leakeage
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1718657342624
 ---
 

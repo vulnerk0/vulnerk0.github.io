@@ -6,5 +6,6 @@ permalink: /robots.txt
 User-agent: *
 
 Disallow: /norobots/
+/are_you_trying_to_hack_me?/
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}

@@ -10,12 +10,13 @@ layout:
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: الرئيسية
+  home: التحديات
   categories: الفئات
   notes: المذكرة
   tags: الوسوم
   archives: الأرشيف
   about: حول
+  scripts: الأكواد
 
 # the text displayed in the search bar & search results
 search:
